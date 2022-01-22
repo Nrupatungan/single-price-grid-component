@@ -27,6 +27,10 @@ body .container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -39,6 +43,8 @@ body .container .community {
   width: 315px;
   padding: 30px 25px;
   background-color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,6 +166,8 @@ body .container .why-us {
   width: 315px;
   padding: 25px 30px;
   background-color: #1dc3c0;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 body .container .why-us h4 {
@@ -209,6 +217,7 @@ body .container .why-us li {
     position: relative;
   }
   body .container {
+    border-bottom-left-radius: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -229,10 +238,12 @@ body .container .why-us li {
     width: 100%;
   }
   body .container .subscription {
+    border-bottom-left-radius: 12px;
     width: 100%;
     height: 100%;
   }
   body .container .why-us {
+    border-bottom-left-radius: 0;
     width: 100%;
     height: 100%;
   }
